@@ -12,5 +12,5 @@ steps:
 
 - script: |
     npm install -g apifox-cli
-    apifox run http://192.168.10.208:5699/api/v1/projects/345396/api-test/ci-config/345129/detail?token=xoh1rWd8r4z6rG_mG0O-so -r html,cli
+    apifox run --access-token APS-gXi214Gb9s4cxxPtM0g5FQUa9XBZR1X4 -t 345149 -e 345183 -n 1 -r html,cli
   displayName: 'Install Apifox CLI and Run Tests'
